@@ -1,5 +1,6 @@
 *.csv
 !Ratings_Warriner_et_al.csv
+!EXAMPLE - all_together_output_csv_file_20230720-120327.csv
 *.~*
 *.pkl
 temp
