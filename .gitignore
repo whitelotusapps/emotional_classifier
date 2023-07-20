@@ -1,0 +1,5 @@
+*.csv
+!Ratings_Warriner_et_al.csv
+*.~*
+*.pkl
+temp
