@@ -2,6 +2,13 @@
 
 This project aims to classify a list of words or phrases (called "idiolects") by associating them with different emotional categories or "schools of thought", using a k-nearest neighbors (k-NN) model. The project uses several Python libraries, including pandas, numpy, sklearn, NLTK, tqdm, spaCy, and joblib.
 
+You can read about this project, and the inspiration for it, on from my LinkedIn article:
+[So, You Want to Be a Data Scientist, Huh? Pub: 3](https://www.linkedin.com/pulse/so-you-want-data-scientist-huh-pub-3-zack-olinger)
+
+Or on Medium:
+
+[So, You Want to Be a Data Scientist, Huh? Part 3](https://medium.com/@therealzackolinger/so-you-want-to-be-a-data-scientist-huh-part-3-855a3d23f009)
+
 ## Dependencies
 Before you run the code, please ensure that you have the following dependencies installed:
 
@@ -22,7 +29,13 @@ pip install -r requirements.txt
 
 ## Usage
 
-Run the code in your Python environment. The script reads in a list of idiolects from a text file `my_words.txt`, as well as a CSV file `list_of_emotional_thought.csv` which contains the various emotional categories and the associated words. It also checks for any existing processed data in the form of `all_together_output_csv_file_*.csv` files and compares it with the new data to classify only the new idiolects.
+Run the code in your Python environment. 
+
+The words contained within the `my_words.txt` are to be your word, or the words that you wish to have classified. 
+
+The `list_of_emotional_thought.csv` contains the various emotional categories and the associated words; I have also included an example of my own categorization to show how you can add your own classifications.
+
+It also checks for any existing processed data in the form of `all_together_output_csv_file_*.csv` files and compares it with the new data to classify only the new idiolects.
 
 The script uses k-nearest neighbors model to classify each idiolect based on the distance to the emotional words in the multi-dimensional emotional space. The model is saved for each column or category of emotions for reusability.
 
