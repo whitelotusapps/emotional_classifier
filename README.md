@@ -3,6 +3,7 @@
 This project aims to classify a list of words or phrases (called "idiolects") by associating them with different emotional categories or "schools of thought", using a k-nearest neighbors (k-NN) model. The project uses several Python libraries, including pandas, numpy, sklearn, NLTK, tqdm, spaCy, and joblib.
 
 You can read about this project, and the inspiration for it, on from my LinkedIn article:
+
 [So, You Want to Be a Data Scientist, Huh? Pub: 3](https://www.linkedin.com/pulse/so-you-want-data-scientist-huh-pub-3-zack-olinger)
 
 Or on Medium:
