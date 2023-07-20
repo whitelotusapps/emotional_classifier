@@ -10,6 +10,18 @@ Or on Medium:
 
 [So, You Want to Be a Data Scientist, Huh? Part 3](https://medium.com/@therealzackolinger/so-you-want-to-be-a-data-scientist-huh-part-3-855a3d23f009)
 
+## Sample output
+
+The `EXAMPLE - all_together_output_csv_file_20230720-120327.csv` contains sample outout. Below is what it will look like:
+
+NOTE: Column `trzo_test` is an example of my own classifications, which are located in the `list_of_emotional_thought.csv` file.
+
+|idiolect|part_of_speech|berkeley_27 |discrete_emotion_theory|robert_plutchik|aristotle|charles_darwin|GEW        |circumplex_model|panas_scales|trzo_test     |
+|--------|--------------|------------|-----------------------|---------------|---------|--------------|-----------|----------------|------------|--------------|
+|abandon |PROPN         |envy        |sadness                |sadness        |envy     |weeping       |loneliness |depressed       |distressed  |disappointment|
+|able    |ADJ           |sympathy    |interest               |trust          |kindness |reflection    |contentment|contented       |attentive   |connection    |
+|absolute|ADJ           |entrancement|shyness                |               |         |mediation     |involvement|contented       |active      |similar       |
+
 ## Dependencies
 Before you run the code, please ensure that you have the following dependencies installed:
 
